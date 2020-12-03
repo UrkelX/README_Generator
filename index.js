@@ -45,7 +45,13 @@ inquirer
             type: "list",
             message: "Choose a License for Your Project",
             name: "license"
+        },
+        {
+            type: "input",
+            message: "Enter Your Email",
+            name: "Email"
         }
+
 
 
     ])
