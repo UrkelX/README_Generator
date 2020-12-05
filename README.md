@@ -54,7 +54,7 @@ Currently utlized via node. Use wisely. See sample here:
 
 
 ## Contributions
-Thank you for the support from my TAs, intructor, and claqssmates. I am looking to link the licenses in the README and add additional features that would cover all necessary elements of a README. 
+Thank you for the support from my TAs, intructor, and claqssmates. I am looking to link the licenses in the README and add additional features that would cover all necessary elements of a README. Also would like to add logic to better support the user.
 
 
 ## Tests
