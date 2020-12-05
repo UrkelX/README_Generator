@@ -61,11 +61,19 @@ const readmeQuestions = () => {
 };
 
 const generateContent = (answers) =>
-    `
-    ## ${answers.title}
-    
-    
-    `;
+`
+# ${answers.title}\n
+## Description\n
+${answers.description}\n\n
+## Installation\n
+## Usage\n
+## Contributions\n
+## Tests\n
+## License\n
+## Contact\n
+
+
+`;
 
 const init = async () => {
     console.log('hello');
