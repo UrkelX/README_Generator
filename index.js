@@ -53,6 +53,17 @@ inquirer
             name: "Email"
         }
 
-
-
     ])
+    .then(response => {
+
+        fs.writeFile('README.md', response, err => {
+            if (err) {
+                return console.log(err);
+            }
+            
+            console.log("Success! Your README has been created")
+        });
+
+    })
+
+   
