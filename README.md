@@ -22,8 +22,8 @@ This project features a basic README generator that has users answer questions v
 
 ## Installation
 To generate README run npm install
-*inquirer
-*util
+* inquirer
+* util
 
 ## Code
 ```
