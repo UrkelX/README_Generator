@@ -54,7 +54,7 @@ const readmeQuestions = () => {
             {
                 type: "input",
                 message: "Enter Your Email",
-                name: "Email"
+                name: "email"
             }
 
         ]);
@@ -63,29 +63,31 @@ const readmeQuestions = () => {
 const generateContent = (answers) =>
 `
 # ${answers.title}\n
-## Description\n
-## Table of Contents\n
-* [Installation](#instalation)\n
+## Description
 ${answers.description}\n\n
+## Table of Contents\n
+* [Installation](#installation)\n
+* [Usage](#usage)\n
+* [Contributions](#contributions)\n
+* [Tests](#tests)\n
+* [License](#license)\n
+* [Contact](#contact)\n
 ## Installation\n
 ${answers.installation}\n\n
-## Usage\n
+## Usage
 ${answers.usage}\n\n
-## Contributions\n
+## Contributions
 ${answers.Contributions}\n\n
-## Tests\n
+## Tests
 ${answers.tests}\n\n
-## License\n
+## License
 ${answers.license}\n\n
-## Contact\n
-GitHub: @[Github](https://github.com/${response.username})\n
+## Contact
+GitHub: @[${answers.username}](https://github.com/${answers.username})\n
 Email: ${answers.email}\n
-
-
 `;
 
 const init = async () => {
-    console.log('hello');
     try {
         const answers = await readmeQuestions();
 
