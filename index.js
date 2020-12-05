@@ -88,6 +88,7 @@ GitHub: @[${answers.username}](https://github.com/${answers.username})\n
 Email: ${answers.email}\n
 `;
 
+// Async funcction 
 const init = async () => {
     try {
         const answers = await readmeQuestions();
