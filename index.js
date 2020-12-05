@@ -64,13 +64,22 @@ const generateContent = (answers) =>
 `
 # ${answers.title}\n
 ## Description\n
+## Table of Contents\n
+* [Installation](#instalation)\n
 ${answers.description}\n\n
 ## Installation\n
+${answers.installation}\n\n
 ## Usage\n
+${answers.usage}\n\n
 ## Contributions\n
+${answers.Contributions}\n\n
 ## Tests\n
+${answers.tests}\n\n
 ## License\n
+${answers.license}\n\n
 ## Contact\n
+GitHub: @[Github](https://github.com/${response.username})\n
+Email: ${answers.email}\n
 
 
 `;
@@ -82,7 +91,7 @@ const init = async () => {
 
         const readmeContent = generateContent(answers);
 
-        await writeFileAsync('REAME.md', readmeContent);
+        await writeFileAsync('README.md', readmeContent);
 
         console.log('Successfully wrote to README.md');
     } catch (err) {
