@@ -60,6 +60,7 @@ const readmeQuestions = () => {
         ]);
 };
 
+// Function to Generate README Content
 const generateContent = (answers) =>
 `
 # ${answers.title}\n
