@@ -50,6 +50,7 @@ Currently utlized via node. Use wisely. See sample here:
 ![gif1](https://user-images.githubusercontent.com/70240665/101234485-651ece00-3685-11eb-9099-5c024548d052.gif)
 ![gif2](https://user-images.githubusercontent.com/70240665/101234733-6cdf7200-3687-11eb-983e-954d9aea6a3a.gif)
 
+[Full Demo Video](https://drive.google.com/file/d/1VijvP6X_D9aj9nrw3u_IPJAmNVcsIEuq/view?usp=sharing)
 
 
 ## Contributions
